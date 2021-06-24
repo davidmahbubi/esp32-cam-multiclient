@@ -353,6 +353,7 @@ void streamCB(void * pvParameters) {
 
 
 const char JHEADER[] = "HTTP/1.1 200 OK\r\n" \
+                       "Access-Control-Allow-Origin: *\r\n" \
                        "Content-disposition: inline; filename=capture.jpg\r\n" \
                        "Content-type: image/jpeg\r\n\r\n";
 const int jhdLen = strlen(JHEADER);
