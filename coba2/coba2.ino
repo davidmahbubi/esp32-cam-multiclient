@@ -57,8 +57,8 @@
   Should work then
 */
 
-#define WF_SSID "Mizuhara Chizuru"
-#define WF_PASS "AmadeusMozart"
+#define WF_SSID "Xena@wifi"
+#define WF_PASS "meri1234"
 #define LED_BUILTIN 4
 
 OV2640 cam;
